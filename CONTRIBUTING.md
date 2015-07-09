@@ -4,9 +4,9 @@ This is the format you should be using to post a bug report. Standardizing bug r
 
 **IMPORTANT:** When you run into a bug, quit the game _immediately_ or in the case of a crash, do not reopen it. This will keep the most relevant information to the error at the end of the log.
 
-**IMPORTANT:** Before you report an issue, please make sure it hasn't been reported already. Note that the list below _may not be complete_. 
+**IMPORTANT:** Before you report an issue, please make sure it hasn't been reported already. Take a minute to search through _all_ issues, both open and closed.
 
-When posting bugs, please try to keep to this format.
+When posting bugs, please keep to this format.
 
 ```
 Single or Multiplayer:
@@ -27,73 +27,3 @@ If the crash happens while the game is running, crash reports are found in the .
 We cannot help you if you do not provide enough information.
 
 If the log is too long to post in an issue, please upload it [here](http://paste.ubuntu.com/). It's like pastebin with no max length.
-
-List of Known Issues
-===
-
-##### Post all new issues in a new issue.
-* Once we've read your issue post, it will be added to this one.
-* Please keep all discussion regarding an issue in that issue's thread. It's always okay to post in a closed thread.
-* When an issue is resolved, it will be removed from this post.
-* Please make certain you are not running Java 1.8. Minecraft is built against Java 1.6, and it's mostly coincidence that 1.7 is compatible. 1.8 is known to cause problems with Minecraft.
-* As of Sun, Jan 23 2015, when someone says to update to the newest version of Java, they are referring to Java 1.7u76-b13. __*DO NOT USE JAVA 1.8.*__
-
-#### Regarding categories in this post:
-* If an issue is listed as Reported, someone claims to have encountered the problem, but a dev has not yet confirmed the problem.
-* If an issue is listed as Confirmed, someone claims to have encountered the problem, and a dev has replicated the problem.
-* If an issue is listed as Possible, someone claims to have encountered the problem, but devs were unable to replicate the issue. This does not mean that the issue does not exist; we just haven't seen it.
-* If an issue is listed as Intentional, it's not a bug, so don't report it.
-
-## Entity and Biome Conflicts
-
-These issues tend to be easy to fix, and usually won't be here for too long.
-
-#### Reported Issues:
-* None
-
-#### Confirmed Issues:
-* None
-
-#### Possible Issues:
-* None
-
-#### Intentional:
-* None
-
-## Mod Interaction Bugs
-
-These types of issues are, for the most part, very hard to fix, and may never end up fixed, since we don't control the source of the mods in the pack.
-
-#### Reported Issues:
-* None
-
-#### Confirmed Issues:
-* None
-
-#### Possible Issues:
-* None
-
-#### Intentional:
-* None
-
-## Other Problems
-
-These are you run-of-the-mill crashes. They tend to be issues with an individual mod, and aren't usually fixable by pack devs, aside from updating to newer versions.
-
-#### Reported Issues:
-* None
-
-#### Confirmed Issues:
-* Optifine causes random crashes on AMD graphics cards. See [issue #211](https://github.com/ScarecrowKrone/MineTek/issues/211).
-  * *Workarounds:*
-    1. Disable connected textures and advanced OpenGL.
-    2. Remove Optifine.
-* Opis's copy of Mapwriter causes most clients to crash when logging in to a server. Possibly a conflict with Chisel. Possibly related to texture packs. See issues [#216](https://github.com/ScarecrowKrone/MineTek/issues/216) and [#217](https://github.com/ScarecrowKrone/MineTek/issues/217). See also these reports on bitbucket:
-  1. https://bitbucket.org/ProfMobius/opis/issue/89/opis-mapriter-crashing-on-texturepack
-  2. https://bitbucket.org/ProfMobius/opis/issue/97/cannot-join-any-servers-or-worlds
-
-#### Possible Issues:
-* None
-
-#### Intentional:
-* None
