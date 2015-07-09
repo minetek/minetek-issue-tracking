@@ -1,3 +1,7 @@
 MineTek Issue Tracker
+===
 
-Welcome to the issue tracker for the MineTek modpack. Before submitting, please read the guidelines before submitting an issue.
+Welcome to the issue tracker for the MineTek modpack.
+
+
+Before submitting an issue, please read the guidelines in CONTRIBUTING.md before submitting an issue.
